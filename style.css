@@ -14,6 +14,8 @@ h1{
 
 .top{
     display: flex;
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
 }
 .half {
     width: 50%;
@@ -27,6 +29,7 @@ h1{
     padding: 10px 40px;
     color: white;
     font-weight: 700;
+    border-radius: 5px;
 }
 .dreambig{
     display: flex;
@@ -41,4 +44,15 @@ h1{
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
+    width: 750px;
+}
+.center{
+    text-align: center;
+}
+.flex-container{
+    display: flex;
+}
+.experiances{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
 }
