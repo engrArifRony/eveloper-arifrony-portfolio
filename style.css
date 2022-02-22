@@ -17,14 +17,28 @@ h1{
 }
 .half {
     width: 50%;
-   padding-left: 10%;
+   padding-left: 5%;
 }
 .half img{
-    width: 80%;
+    width: 90%;
 }
 .button-img {
     background-image: linear-gradient(red,orange);
     padding: 10px 40px;
     color: white;
     font-weight: 700;
+}
+.dreambig{
+    display: flex;
+    margin-top: 150px;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.dreambig p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
 }
