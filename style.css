@@ -55,4 +55,16 @@ h1{
 .experiances{
     background-image: url(images/exp-bg.png);
     background-repeat: no-repeat;
+    margin-top: 150px;
+    background-position: left center;
+}
+
+.left {
+        box-shadow: 10px 10px 40px red;
+        
+        margin: 1%;
+    }
+.right{
+    box-shadow: 10px 10px 40px blue;
+    margin: 1%;
 }
